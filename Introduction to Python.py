@@ -20,5 +20,5 @@ division = num1 / num2
 # Print the results
 # print("{} + {} = {}".format(num1, num2, Sum))
 # print("{} - {} = {}".format(num1, num2, difference))
-print("{} * {} = {}".format(num1, num2, product))
-print("{} / {} = {}".format(num1, num2, division))
+# print("{} * {} = {}".format(num1, num2, product))
+# print("{} / {} = {}".format(num1, num2, division))
