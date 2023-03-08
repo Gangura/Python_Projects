@@ -28,4 +28,4 @@ mile = input("What miles have you covered: ")
 mile = int(mile)
 kilometers = mile*1.60934
 
-print("The distance travelled in Kms travelled is {}".format(kilometers))
+print("{} miles equals {} kilometers".format(mile, kilometers))
