@@ -24,8 +24,23 @@
 # print("{} / {} = {}".format(num1, num2, division))
 
 # Tutorial 2
-mile = input("What miles have you covered: ")
-mile = int(mile)
-kilometers = mile*1.60934
+# mile = input("What miles have you covered: ")
+# mile = int(mile)
+# kilometers = mile*1.60934
 
-print("{} miles equals {} kilometers".format(mile, kilometers))
+# print("{} miles equals {} kilometers".format(mile, kilometers))
+
+
+# TUTORIAL 3 EXERCISE
+# Feed the age of the person
+age = eval(input("What is your age? "))
+
+if age < 5:
+    print("Too young for School")
+elif age == 5:
+    print("Go to Kindergarten")
+elif (age > 5) and (age <= 17):
+    grade = age - 5
+    print("Should be in grade {}".format(grade))
+else:
+    print("Go to college")
