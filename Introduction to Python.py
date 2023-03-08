@@ -22,3 +22,9 @@
 # print("{} - {} = {}".format(num1, num2, difference))
 # print("{} * {} = {}".format(num1, num2, product))
 # print("{} / {} = {}".format(num1, num2, division))
+
+mile = input("What miles have you covered: ")
+mile = int(mile)
+kilometers = mile*1.60934
+
+print("The distance travelled in Kms travelled is {}".format(kilometers))
