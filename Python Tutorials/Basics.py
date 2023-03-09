@@ -64,4 +64,4 @@
 
 # my_function()
 
-print("My name is Gabriel and I come from Lira", sep='....')
+# print("My name is Gabriel and I come from Lira", sep='....')
