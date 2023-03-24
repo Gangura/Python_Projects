@@ -59,9 +59,48 @@
 
 # my_function(12)
 
+# def make_negative(number):
+# return -abs(number)
+
+# print("Number: {}".format(number))
+# make_negative (45)
+
 # def my_function(counter=89):
 # print("Counter: {}".format(counter))
 
 # my_function()
 
 # print("My name is Gabriel and I come from Lira", sep='....')
+
+# for i in [1, 2, 3, 4]:
+# print(i, end=" ")
+
+# a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4] }
+# print(a.get('projects')[3])
+
+# for i in [1, 3, 4, 2]:
+# print(i, end=" ")
+
+# a = { 'id': 89, 'name': "John" }
+# print(a['id'])
+
+# for i in range(0, 3):
+# print(i, end=" ")
+
+# a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4] }
+# print(a.get('projects'))
+
+# a = { 'id': 89, 'name': "John" }
+# print(a.get('age'))
+
+
+#num1, num2 = int(input("Enter the two numbers: ")).split()
+#num1 = int(num1)
+#num2 = int(num2)
+#if num1 > num2:
+#larger_number = num1
+#else:
+#larger_number = num2
+
+# Print the result
+#print("The larger number is:", larger_number)
