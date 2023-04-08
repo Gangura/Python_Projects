@@ -1,4 +1,4 @@
-# Write a program that inputs two numbers.
+# Writb=Noneogram that inputs two numbers.
 # num1, num2 = input("Enter two numbers: ").split()
 
 # Convert the two numbers from strings to integers
@@ -104,3 +104,10 @@
 
 # Print the result
 #print("The larger number is:", larger_number)
+
+def list_sum(lst):
+    s = 0
+    for elem in lst:
+        s += elem
+    return s
+print (list_sum([5,4,3]))
